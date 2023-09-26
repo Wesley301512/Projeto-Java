@@ -52,3 +52,32 @@ for(let i=0; i<carros.length;i++){
 for(let carro of carros){
     console.log(carro)
 }
+
+/*while
+
+let cont =0
+while(cont <20){
+    alert("Passagem de numeros" +cont)
+    cont++
+}*/
+
+//do while
+
+let valor2 =0
+do{
+    console.log("passagem" +valor2)
+    valor2++
+}while(valor2 <0)
+
+//função
+
+function teste(num1, num2){
+    return num1 + num2
+}
+console.log(teste(4,6))
+
+function avisar(){
+    alert("avisar")
+    alert("avisar-2")
+}
+avisar()
