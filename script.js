@@ -32,3 +32,9 @@ let valor1 = 10
 console.log(valor1)
 valor1 +=3;
 console.log(valor1)
+
+// for (laço de repetição)
+
+for(let i=0; i<10; i++){
+    console.log("Agora i vale" +i);
+}
