@@ -71,7 +71,7 @@ do{
 
 //função
 
-function teste(num1, num2){
+/*function teste(num1, num2){
     return num1 + num2
 }
 console.log(teste(4,6))
@@ -80,4 +80,14 @@ function avisar(){
     alert("avisar")
     alert("avisar-2")
 }
-avisar()
+avisar()*/
+let novo = document.getElementById("idNome")
+
+function mudar(){
+
+document.getElementById("titulo").innerHTML =novo.value;
+}
+
+function trocar(cores){
+    document.body.style.background =cores
+}
